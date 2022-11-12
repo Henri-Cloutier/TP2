@@ -1,7 +1,7 @@
 
 .main{
     font-family: Quicksand;
-    width: 1200px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -45,8 +45,8 @@
 .entete a{
     text-decoration: none;
     color: black;
-    border-radius: 10px;
-    width: 200px;
+    border-radius: 20px;
+    width: 150px;
     text-align: center;
 }
 .entete a:active{
@@ -107,4 +107,10 @@
 .photoAuteur{
     height: 200px;
     border-radius: 100px;
+}
+.sourceSousImage{
+    color: rgb(88, 88, 88);
+    font-size: 12px;
+    width: 500;
+    text-align: justify;
 }
