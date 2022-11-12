@@ -1,0 +1,110 @@
+
+.main{
+    font-family: Quicksand;
+    width: 1200px;
+    margin: auto;
+}
+
+.enteteCase{
+    font-size: 20px;
+    margin: auto;
+}
+
+.nomSectionTop{
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin-bottom: 20px;
+}
+
+.logoTop{
+    height: 100px;
+    padding: 30px;
+}
+
+.nomSite{
+    font-size: 40px;
+    padding: 40px;
+    font-family: Oswald;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+.nomPage{
+    font-size: 30px;
+    font-family: Oswald;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.entete{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    border-radius: 15px;
+    font-family: Oswald;
+}
+.entete a{
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+.entete a:active{
+    background-color: black;
+    color: white;
+}
+.entete a:hover{
+    background-color: rgb(152, 152, 152);
+    color: black;
+}
+.selected {
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+
+.sectionTop{
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 30px;
+}
+.texteDescription{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 800px;
+    text-align: justify;
+}
+.sources{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.sectionSource{
+    font-family: Oswald;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.distancePoints{
+    margin-top: 10px;
+}
+.distancePoints a{
+    text-decoration: none;
+    color: black;
+}
+.sectionTexte{
+    margin-left: 80px;
+}
+.nomAuteur{
+    font-size: 40px;
+    font-style: Oswald;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.pageAuteur{
+    display: grid;
+    grid-template-columns: 340px 200px;
+    margin-left: 230px;
+    margin-top: 80px;
+}
+.photoAuteur{
+    height: 200px;
+    border-radius: 100px;
+}
